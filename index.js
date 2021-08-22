@@ -53,13 +53,22 @@ var readlineSync = require('readline-sync')
 //     return output
 // }
 
-function add(num1, num2){
-    var sum = num1 + num2
-    return sum
-}
+// function add(num1, num2){
+//     var sum = num1 + num2
+//     return sum
+// }
 
-console.log("Enter two numbers to add them.\n")
-var num1 = Number(readlineSync.question())
-var num2 = Number(readlineSync.question())
-var result = add(num1, num2)
-console.log(result)
+// console.log("Enter two numbers to add them.\n")
+// var num1 = Number(readlineSync.question())
+// var num2 = Number(readlineSync.question())
+// var result = add(num1, num2)
+// console.log(result)
+
+// // objects
+// var marks = {
+//     joy: 400,
+//     deeksha: 200
+// };
+// console.log(marks.joy, marks.deeksha);
+// console.log(marks);
+
