@@ -72,9 +72,11 @@ var readlineSync = require('readline-sync')
 // console.log(marks.joy, marks.deeksha);
 // console.log(marks);
 
+
 // // Ex:1
 
 // // console.log("Joy")
+
 
 // // Ex: 2
 
@@ -82,14 +84,16 @@ var readlineSync = require('readline-sync')
 // var name = readlineSync.question("What is your name?\n")
 // console.log(name)
 
-// Ex: 3
+
+// // Ex: 3
 
 // var welcomeMessage = "Hi! " + name + ", Welcome to JavaScript!"
 // console.log(welcomeMessage)
 
-// Ex: 4
-// Ex: 5
-// Ex: 6
+
+// // Ex: 4
+// // Ex: 5
+// // Ex: 6
 
 // var score = 0
 // var age = readlineSync.question("Enter your age to check if it is greater than 18 or not.\n")
@@ -117,6 +121,7 @@ var readlineSync = require('readline-sync')
 //     score = 0
 //     console.log("Invalid input\n Your score has been reset to " + score+ ".\n")
 // }
+
 
 // // Ex: 7
 // // functions
@@ -152,6 +157,7 @@ var readlineSync = require('readline-sync')
 //     console.log(element)
 // })
 
+
 // // Ex 8:
 
 // var score = 0;
@@ -176,12 +182,13 @@ var readlineSync = require('readline-sync')
 // qna(ques2, ans2)
 // qna(ques3, ans3)
 
-// Ex: 9
 
-// for loop
-// for(initial condition; exit condition; step condition){
-//     processing
-// }
+// // Ex: 9
+
+// // for loop
+// // for(initial condition; exit condition; step condition){
+// //     processing
+// // }
 
 // var score = 0;
 // function qna(ques, ans){
@@ -219,3 +226,68 @@ var readlineSync = require('readline-sync')
 //     console.log(p)
 // }
 
+
+// // Ex: 10, 11
+
+// // Array
+
+// // syntax:
+// // var arrayName = [v1, v2, v3, ...];
+
+// var arr = ['eggs', 'fish', 'parrot', 'potty', 'pig'];
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// // Ex: 12
+
+// // objects
+
+// var superman = {
+//     name: 'chaddhi wala man',
+//     power: 'super strenght',
+//     speed: 'faster than the flash',
+//     weekness: 'kryptonite'
+// }
+
+// var batman = {
+//     name: 'batman',
+//     power: 'this dude is rich',
+//     speed: 'quick',
+//     weekness: 'chicks'
+// }
+
+// console.log(superman.speed)
+// console.log(batman.weekness)
+
+// // Ex: 13
+
+
+// var quesOne = {
+//     ques: "what is your favourite game?",
+//     ans: "Pokemon"
+// }
+
+// var quesTwo = {
+//     ques: "What is your favourite pokemon?",
+//     ans: "Charizard"
+// }
+
+// var quesThree = {
+//     ques: "What is it's favourite attack?",
+//     ans: "Dragon Claw"
+// }
+// console.log(quesOne.ques)
+// console.log(quesOne.ans)
+// console.log(quesTwo.ques)
+// console.log(quesTwo.ans)
+// console.log(quesThree.ques)
+// console.log(quesThree.ans)
+// var arr = [["superman", "red + blue"], ["batman", "black"], ["flash", "red + yellow"]]
+// console.log(arr[0][0])
+// for(let i = 0; i <= arr.length; i++){
+//     console.log(arr[i])
+// }
+// arr.forEach(function(item, ind){
+//     console.log(item, ind)
+// })
