@@ -291,3 +291,17 @@ var readlineSync = require('readline-sync')
 // arr.forEach(function(item, ind){
 //     console.log(item, ind)
 // })
+
+// function hero(h){
+//     console.log("Name : ", h.key);
+//     console.log("Color : ", h.value, "\n");
+// }
+// var n = readlineSync.question("Enter the number of heros:\n")
+// var h ={};
+// for(let i = 1; i <= n; i++){
+//     h.key = readlineSync.question("Hero name: ");
+//     h.value = readlineSync.question("Color: ");
+// }
+
+// Ex: 14
+
