@@ -326,16 +326,16 @@ var readlineSync = require('readline-sync')
 
 // var questions = [
 //     {
-//     ques: "Where do I live?\n",
-//     ans: "lucknow\n"
+//     ques: "Where do I live? ",
+//     ans: "lucknow"
 //     },
 //     {
-//     ques: "Who is my favourite hero?\n",
+//     ques: "Who is my favourite hero? ",
 //     ans: "deku"
 //     },
 //     {
-//     ques: "Do I like Pokemon?\n",
-//     ans: "Yes\n"
+//     ques: "Do I like Pokemon? ",
+//     ans: "yes"
 //     }
 // ];
 
@@ -343,3 +343,4 @@ var readlineSync = require('readline-sync')
 //     var currQues = questions[i]
 //     play(currQues.ques, currQues.ans)
 // }
+// console.log("YAY!!!... Your final score is: ", score, ".")
