@@ -303,5 +303,43 @@ var readlineSync = require('readline-sync')
 //     h.value = readlineSync.question("Color: ");
 // }
 
-// Ex: 14
+// // Ex: 14, 15
 
+// // end game
+
+// var userName = readlineSync.question("What is your name?\n")
+// console.log("Welcome", userName, "! to 'Do you know Joy?'")
+// var score = 0
+
+// function play(question, answer){
+//     var userAnswer = readlineSync.question(question);
+//     if (userAnswer === answer){
+//         score += 1
+//         console.log("Right! Your score is ", score,  ".\n")
+//     }
+//     else{
+//         score -= 1
+//         console.log("Wrong! Your score is ", score, ".\n")
+//     }
+//     console.log("-----------------------------")
+// }
+
+// var questions = [
+//     {
+//     ques: "Where do I live?\n",
+//     ans: "lucknow\n"
+//     },
+//     {
+//     ques: "Who is my favourite hero?\n",
+//     ans: "deku"
+//     },
+//     {
+//     ques: "Do I like Pokemon?\n",
+//     ans: "Yes\n"
+//     }
+// ];
+
+// for(let i = 0; i < questions.length; i++){
+//     var currQues = questions[i]
+//     play(currQues.ques, currQues.ans)
+// }
